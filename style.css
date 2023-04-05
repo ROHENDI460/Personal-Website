@@ -121,7 +121,6 @@ ul li:hover a {
 
 #Porto {
     margin-left: 250px;
-    margin-top: 20px;
     min-height: 100vh;
     display: flexbox;
     padding-top: 5px;
@@ -130,12 +129,12 @@ ul li:hover a {
 }
 
 .portofolio {
-    height: 90vh;
+    height: 100vh;
     width: 75vw;
     border: 1px solid black;
     border-radius: 5px;
     margin: 30px;
-    box-shadow: 20px 20px 50px grey;;
+    box-shadow: 20px 20px 50px grey;
 }
 
 .portofolio h1 {
@@ -178,4 +177,51 @@ ul li:hover a {
     width: 300px;
     border-radius: 10px;
     margin: 0 20px;
+}
+
+.gambar3 {
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+#Articles {
+    margin-left: 250px;
+    min-height: 100vh;
+    display: flexbox;
+    padding-top: 20px;
+    /* border-top: 1px solid black; */
+    /* background-color: rgb(192, 170, 149); */
+}
+
+.articles {
+    margin-left: 30px;
+    margin-top: 20px;
+    min-height: 100vh;
+    width: 75vw;
+    display: flexbox;
+    /* background-color: beige; */
+}
+
+.news {
+    height: 90vh;
+    width: 70vw;
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aquamarine; */
+}
+
+.artikel1 {
+    /* background-color: antiquewhite; */
+    box-shadow: 20px 20px 50px grey;
+    height: 550px;
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+}
+
+.content1 {
+    margin: 15px;
+    line-height: 25px;
 }

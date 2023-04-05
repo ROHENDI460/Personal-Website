@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color:  ;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
@@ -19,13 +22,6 @@ nav {
     background-color: rgb(13, 18, 19);
     align-items: center;
     
-}
-
-header {
-    font-size: 20pt;
-    color: white;
-    text-align: center;
-    user-select: none;
 }
 
 nav ul {

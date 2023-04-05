@@ -6,10 +6,9 @@
 }
 
 body {
-    background-image: url(./img/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
+    margin-left: 250px;
+    min-height: 2000px;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
@@ -26,7 +25,7 @@ nav {
 
 nav ul {
     width: 100%;
-    display: flexbox;
+    /* display: flex; */
     text-align: center;
     line-height: 80px;
     justify-items: center;
@@ -44,4 +43,28 @@ ul li:hover a {
     border-bottom: 3px solid rgb(255, 159, 32);
     font-size: 20pt;
     color: rgb(255, 187, 0);
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 20px;
+    
+}
+
+.profil {
+    width: 15rem;
+    
+    border-radius: 50%;
+}
+
+.content {
+    color: rgb(255, 187, 0);
+    text-align: center;
 }

@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100vh;
     nav-left: 1000px;
@@ -101,15 +105,77 @@ ul li:hover a {
 
 .about h1 {
     padding-top: 40px;
-    padding-left: 20px;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
     /* background-color: aquamarine; */
 }
 .about p {
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .about ul {
-    margin: 20px;
+    margin: 20px 40px;
     list-style-type: decimal;
     line-height: 50px;
+}
+
+#Porto {
+    margin-left: 250px;
+    margin-top: 20px;
+    min-height: 100vh;
+    display: flexbox;
+    padding-top: 5px;
+    /* border-top: 1px solid black; */
+    /* background-color: rgb(192, 170, 149); */
+}
+
+.portofolio {
+    height: 90vh;
+    width: 75vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px grey;;
+}
+
+.portofolio h1 {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    /* background-color: aquamarine; */
+}
+
+.portofolio div li {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+.portofolio div li a {
+    color: black;
+}
+
+.portofolio div li:hover a {
+    border-bottom: 2px solid  rgb(255, 187, 0);
+}
+
+.gambar {
+    height: 430px;
+    /* background-color: sandybrown; */
+    display: flex;
+    padding: 30px;
+    
+}
+.gambar1 {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.gambar2 {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 20px;
 }
